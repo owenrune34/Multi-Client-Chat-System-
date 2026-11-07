@@ -50,6 +50,7 @@ Use the included Makefile to compile both the server and client binaries:
 ```bash
 make
 ```
+make file may fail. So for manual compiling of client run this command ```gcc client.c -o client -pthread```
 
 ### 3. Run the Application
 
